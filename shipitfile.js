@@ -8,11 +8,11 @@ module.exports = function (shipit) {
             ignores: ['.git', 'node_modules'],
             keepReleases: 2,
             deleteOnRollback: false,
-            key: '/path/to/key',
+            key: '',
             shallowClone: true
         },
         staging: {
-            servers: ['user@'],
+            servers: [''],
             branch: 'master'
         }
     });
